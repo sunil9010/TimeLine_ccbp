@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #1e293b;
+}
+.durationDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+}
+.titleLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+p {
+  font-size: 18px;
+}
+.tagsItem {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #e2e8f1;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.tagsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.durationP {
+  margin-left: 5px;
+}
